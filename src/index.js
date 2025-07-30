@@ -19,9 +19,7 @@ function aiPoem(event) {
 
     let poemElement = document.querySelector("#poem");
     poemElement.classList.remove("hidden");
-    poemElement.InnerHTML = `⏳Generating a French Poem about a ${instructionsInput.value}`;
-
-    console.log();
+    poemElement.InnerHTML = `<div class="blink">⏳Generating a French Poem about a ${instructionsInput.value}</div>`;
 
     axios.get(apiURL).then(displayPoem);
     
