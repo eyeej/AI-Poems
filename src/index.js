@@ -10,4 +10,4 @@ function aiPoem(event) {
  }
 
 let poemFormElement = document.querySelectorAll("#poem-generator");
-poemFormElement.addEventlistener("submit", aiPoem);
+poemFormElement.addEventListener("submit", aiPoem);
