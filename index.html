@@ -5,19 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Poems</title>
 <link rel="stylesheet" href="src/style.css">
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 </head>
 <body>
 <div class="container">
 <h1>AI French Poem Generator</h1>
 <main>
-<form>
+<form id="poem-generator">
 <input type="text" placeholder="Enter topic" class="intructions" autofocus require autocomplete="off"/>
 <input type="Submit" class="submit-button"></form>
-  <div class="poem">
-          La tombe dit à la rose
-          <br />
-          Des pleurs dont l'aube t'arrose
-    </div>
+  <div class="poem" id="poem"></div>
 </main>
 <footer>This AI project was Coded by <a href="https://github.com/eyeej" target="blank_">Emma Yee-Joy</a> and is open-sourced on
  <a href="https://github.com/eyeej/AI-Poems" target="_blank">Github</a> and hosted on
