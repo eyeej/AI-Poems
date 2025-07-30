@@ -17,6 +17,10 @@ function aiPoem(event) {
     let context = "You need to generate a roman poem in French. Keep the poem short and sweet, 4 lines maxmimum with a <br/> between each line. . Make sure to follow the user instructions. Do not include a title to the poem. Sign the poem with 'SheCodes AI' inside a <strong> element at the end of the poem and NOT at the beginning";
     let apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
+    let poemElement = document.querySelector("#poem");
+    poemElement = classList.remove("hidden");
+    poemElement.InnerHTML = `⏳Generating a French Poem about a ${instructionsInput.value}`;
+
     axios.get(apiURL).then(displayPoem);
     
  }
