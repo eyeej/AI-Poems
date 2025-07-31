@@ -13,6 +13,7 @@ h1 {
   font-weight: 800;
   font-size: 36px;
   line-height: 1.5;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .form-container {
@@ -29,7 +30,7 @@ form {
 
 .container {
   margin: 120px auto;
-  max-width: 600px;
+  max-width: 400px;
 }
 
 .hint {
@@ -40,14 +41,14 @@ form {
 }
 
 .submit-button {
-  margin-left: 10px;
+  margin-left: 50px;
   background: #876464;
   color: white;
   border: none;
-  width: 150px;
+  width: 100px;
   font-size: 16px;
   border-radius: 50px;
-  padding: 14px 24px;
+  padding: 10px 20px;
 
 }
 
